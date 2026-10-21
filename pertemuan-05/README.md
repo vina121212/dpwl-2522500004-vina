@@ -3,5 +3,5 @@
 
 ### 1. Halaman Dashboard Admin (`index.php/admin/mobil`)
 ![Halaman Dashboard Admin](dokumentasi/before.png)
-![Halaman Dashboard Admin](dokumentasi/bukti02.png)
-![Halaman Dashboard Admin](dokumentasi/bukti03.png)
+![Halaman Dashboard Admin](dokumentasi/after.png)
+![Halaman Dashboard Admin](dokumentasi/ubah.png)
