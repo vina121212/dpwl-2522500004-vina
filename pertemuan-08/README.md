@@ -1,7 +1,5 @@
 # pertemuan-08
 
-
-
 Telah dilakukan penambahan menu Manajemen Penyewaan pada bilah navigasi sidebar aplikasi dengan rincian pengerjaan sebagai berikut:
 
 1. Navigasi SideBar:
