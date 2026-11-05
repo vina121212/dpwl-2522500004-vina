@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 04, 2026 at 03:45 PM
+-- Generation Time: Nov 05, 2026 at 07:59 AM
 -- Server version: 8.4.3
 -- PHP Version: 8.3.33
 
@@ -38,8 +38,7 @@ CREATE TABLE `t_admin` (
 --
 
 INSERT INTO `t_admin` (`username`, `password`, `status_akun`) VALUES
-('Silvia', '$2y$10$6fzd3H1tMEEtrfPJcGBAN.zx/mrrmtTW5/DI63tNdhIr0s6126OeG', 'aktif'),
-('Vina Ekasari', '12345', 'aktif');
+(' root', 'admin', 'nonaktif');
 
 -- --------------------------------------------------------
 
@@ -76,7 +75,8 @@ INSERT INTO `t_bayar` (`kode_bayar`, `tgl_wkt_byr`, `ft_byr`, `mtode_byr`, `jns_
 ('PAY/20260706/01', '2026-07-06 14:09:35', NULL, 'tunai', 'pelunasan', 500000, 'valid', '2026-07-06 14:09:35', 'INV/20260703/01'),
 ('PAY/20261104/01', '2026-11-04 18:48:10', NULL, 'transfer', 'dp', 300000, 'pending', NULL, 'INV/20261104/01'),
 ('PAY/20261104/02', '2026-11-04 18:48:58', NULL, 'transfer', 'dp', 300000, 'pending', NULL, 'INV/20261104/02'),
-('PAY/20261104/03', '2026-11-04 19:00:15', NULL, 'transfer', 'dp', 300000, 'pending', NULL, 'INV/20261104/03');
+('PAY/20261104/03', '2026-11-04 19:00:15', NULL, 'transfer', 'dp', 300000, 'pending', NULL, 'INV/20261104/03'),
+('PAY/20261105/01', '2026-11-05 13:36:35', NULL, 'transfer', 'dp', 150000, 'pending', NULL, 'INV/20261105/01');
 
 -- --------------------------------------------------------
 
@@ -267,7 +267,8 @@ INSERT INTO `t_pilih` (`kode_sewa`, `no_plat`, `hrg_sewa`, `n_hari`) VALUES
 ('INV/20261104/02', 'BN 1194 AB', 500000, 1),
 ('INV/20261104/02', 'BN 1450', 500000, 1),
 ('INV/20261104/03', 'BN 1194 AB', 500000, 1),
-('INV/20261104/03', 'BN 1450', 500000, 1);
+('INV/20261104/03', 'BN 1450', 500000, 1),
+('INV/20261105/01', 'BN 1194 AB', 500000, 1);
 
 -- --------------------------------------------------------
 
@@ -300,7 +301,8 @@ INSERT INTO `t_sewa` (`kode_sewa`, `tgl_mulai`, `tgl_selesai`, `wkt_ambil`, `sta
 ('INV/20260712/02', '2026-07-12', '2026-07-13', '08:00:00', 'batal', 'andi'),
 ('INV/20261104/01', '2026-11-04', '2026-11-05', '18:47:47', 'diajukan', 'Vina101206_vina'),
 ('INV/20261104/02', '2026-11-04', '2026-11-05', '18:48:42', 'diajukan', 'Vina101206_vina'),
-('INV/20261104/03', '2026-11-04', '2026-11-05', '18:53:42', 'diajukan', 'Vina101206_vina');
+('INV/20261104/03', '2026-11-04', '2026-11-05', '18:53:42', 'diajukan', 'Vina101206_vina'),
+('INV/20261105/01', '2026-11-05', '2026-11-06', '13:36:23', 'diajukan', 'Vina101206_vina');
 
 --
 -- Indexes for dumped tables
